@@ -10,7 +10,7 @@ This project demonstrates an end-to-end data engineering pipeline using the Meda
 
 It processes sample CRM and ERP datasets (30–40 rows) and transforms raw data into a structured analytics-ready model.
 
-The same dataset was also used in a SQL Data Warehouse project to understand traditional vs modern data engineering approaches.
+The same dataset was also used in a SQL Data Warehouse project to compare traditional vs modern data engineering approaches.
 
 ---
 
@@ -18,16 +18,16 @@ The same dataset was also used in a SQL Data Warehouse project to understand tra
 
 Bronze → Silver → Gold
 
-**Bronze Layer**
-- Raw data ingestion from CSV files into Delta tables  
+### Bronze Layer
+- Raw data ingestion from CSV files into Delta tables
 
-**Silver Layer**
-- Data cleaning and standardization  
-- Business rule transformations  
+### Silver Layer
+- Data cleaning and standardization
+- Business rule transformations
 
-**Gold Layer**
-- Star schema modeling  
-- Fact and dimension tables  
+### Gold Layer
+- Star schema modeling
+- Fact and dimension tables
 
 ---
 
@@ -45,20 +45,20 @@ Bronze → Silver → Gold
 ## ⚙️ Pipeline Flow
 
 ### Bronze Layer
-- Loaded CRM and ERP CSV datasets  
-- Stored as Delta tables  
+- Loaded CRM and ERP CSV datasets
+- Stored as Delta tables
 
 ### Silver Layer
-- Removed nulls and duplicates  
-- Standardized values (gender, country, product types)  
-- Applied business rules  
+- Removed nulls and duplicates
+- Standardized values (gender, country, product types)
+- Applied business rules
 
 ### Gold Layer
-- Created star schema model  
+- Created star schema model
 - Built:
-  - dim_customers  
-  - dim_products  
-  - fact_sales  
+  - dim_customers
+  - dim_products
+  - fact_sales
 
 ---
 
@@ -74,24 +74,21 @@ All tasks run sequentially in a single workflow.
 
 ---
 
-## 📸 Screenshots
+## 📸 Pipeline Execution
 
-Stored in `/screenshots` folder:
+Below is the successful execution of the end-to-end pipeline:
 
-- Databricks Job successful run  
-- Bronze table output  
-- Silver transformed data  
-- Gold tables (fact and dimensions)  
+![Databricks Pipeline Run](screenshots/Databrick_architecture_run.png)
 
 ---
 
 ## 📚 Learning Outcome
 
-- Built end-to-end ETL pipeline using Medallion Architecture  
-- Learned PySpark transformations and Delta Lake  
-- Implemented data cleaning and standardization  
-- Designed star schema model  
-- Understood lakehouse vs traditional warehouse  
+- Built end-to-end ETL pipeline using Medallion Architecture
+- Learned PySpark transformations and Delta Lake
+- Implemented data cleaning and standardization
+- Designed star schema model
+- Understood lakehouse vs traditional warehouse
 
 ---
 
@@ -99,8 +96,8 @@ Stored in `/screenshots` folder:
 
 Same dataset used in SQL Data Warehouse project helped compare:
 
-- Traditional SQL warehouse approach  
-- Modern Databricks Medallion architecture  
+- Traditional SQL warehouse approach
+- Modern Databricks Medallion architecture
 
 ---
 
