@@ -27,6 +27,13 @@ Bronze → Silver → Gold
 - Star schema modeling
 - Fact and dimension tables
 
+### 📊 Analytics & Databricks SQL
+
+After building the Gold layer, I used **Databricks SQL** to query the analytics-ready tables for reporting and insights.
+- Created summary queries for sales, customers, and products
+- Validated transformations from Bronze → Silver → Gold
+- Generated metrics for dashboards and business analysis
+
 ---
 
 ## 🛠️ Tech Stack
