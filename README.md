@@ -1,6 +1,6 @@
 # 🚀 End-to-End Medallion Data Pipeline (Databricks)
 
-Built using :contentReference[oaicite:0]{index=0}
+Built using Databricks
 
 ---
 
