@@ -1,4 +1,4 @@
-# 🚀 End-to-End Medallion Data Pipeline (Databricks)
+# 🚀 End-to-End Data Pipeline & Analysis using Databricks (Medallion Architecture)
 
 ---
 
